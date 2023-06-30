@@ -1,13 +1,13 @@
 const {initializeApp,cert} = require('firebase-admin/app');
 const {getFirestore} = require('firebase-admin/firestore');
 const firebaseConfig = {
-  apiKey: "AIzaSyCX-PWremF5pIeS3IpNtLI8GuxVW8pN5tg",
-  authDomain: "cloth-shop-7dd19.firebaseapp.com",
-  databaseURL: "https://cloth-shop-7dd19-default-rtdb.firebaseio.com",
-  projectId: "cloth-shop-7dd19",
-  storageBucket: "cloth-shop-7dd19.appspot.com",
-  messagingSenderId: "82978736710",
-  appId: "1:82978736710:web:f4d74a6d4fbbd37fc91847"
+  apiKey: API_KEY,
+  authDomain: AUTH_DOMAIN,
+  databaseURL: DATABASE_URL,
+  projectId: PROJECT_ID,
+  storageBucket: STORAGE_BUCKET,
+  messagingSenderId: SENDER_ID,
+  appId: APP_ID
 };
 
 const serviceAccount =  require('./serviceAccountKey.json');
